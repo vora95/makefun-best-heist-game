@@ -1,0 +1,33 @@
+/* Meridian Vault — page chrome around the game canvas. */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #070a14;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+main {
+  text-align: center;
+}
+canvas {
+  display: block;
+  width: min(1280px, 96vw);
+  height: auto;
+  border: 2px solid #2b3350;
+  border-radius: 6px;
+  background: #0a0e1c;
+}
+.hint {
+  color: #9aa5c4;
+  font-size: 13px;
+  margin: 10px 0 0;
+}
