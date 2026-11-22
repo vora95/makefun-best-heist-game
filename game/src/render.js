@@ -260,7 +260,7 @@ export function drawHUD(ctx, state) {
   const ah = 18;
   ctx.fillStyle = COLORS.dim;
   ctx.font = 'bold 12px sans-serif';
-  ctx.fillText('ALARM', ax, ay - 2 + 0);
+  ctx.fillText('ALARM', ax, ay - 2);
   ctx.fillStyle = '#1b2340';
   ctx.fillRect(ax, ay + 8, aw, ah);
   const frac = state.alarm / 100;

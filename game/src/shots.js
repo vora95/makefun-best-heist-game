@@ -99,7 +99,7 @@ export function shotState(name) {
     elapsed: 38,
     diamondTaken: false,
     time: 2.1,
-    smokes: [{ x: thief.x + 120, y: thief.y - 60, r: 95, time: 2 }],
+    smokes: [{ x: thief.x + 185, y: thief.y - 95, r: 95, time: 2 }],
     seen: false,
   };
 }
